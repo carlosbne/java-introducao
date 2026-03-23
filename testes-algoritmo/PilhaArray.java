@@ -7,7 +7,7 @@ public class PilhaArray implements Pilha{
         this.capacidade = capacidade;
         this.FC = FC;
         t = -1;
-        if(crescimento <= 0){
+        if(FC <= 0){
             FC = 0;
         }
         a = new Object[capacidade];
